@@ -1,0 +1,33 @@
+header{
+    display: flex;
+    padding-inline: 16px;
+    padding-block: 8px;
+    background-color:chocolate;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+
+    >span{
+        cursor: pointer;
+        &:hover{
+            color: beige;
+        }
+    }
+
+    ul{
+        list-style: none;
+
+        li{
+            cursor: pointer;
+            &:hover{
+                color: beige;
+            }
+        }
+    }
+}
